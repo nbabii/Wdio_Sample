@@ -28,6 +28,8 @@ exports.config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
+    execArgv: ['--inspect'],
+    debug: true,
     //
     // ============
     // Capabilities
