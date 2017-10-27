@@ -12,7 +12,7 @@ export default class MainPage extends WebPage {
 
     constructor() {        
         super();
-        super.waitForPageAvailable(this, PAGE_ELEMENTS_LOCATORS)
+        super.waitForFullPageAvailable(this, PAGE_ELEMENTS_LOCATORS)
     }
 
     static open() {

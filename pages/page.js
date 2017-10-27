@@ -10,7 +10,7 @@ export default class WebPage {
 
     }
 
-    waitForPageAvailable(pageObject, PAGE_ELEMENTS_LOCATORS) {
+    waitForFullPageAvailable(pageObject, PAGE_ELEMENTS_LOCATORS) {
 
         if (PAGE_ELEMENTS_LOCATORS === undefined || Object.keys(PAGE_ELEMENTS_LOCATORS).length <= 0) {
             throw new Error(`PAGE_ELEMENTS_LOCATORS object in ${pageObject.constructor.name} page object does not contain any locators.`);
